@@ -135,10 +135,10 @@ const resultDescription = computed(() => {
 
   if(iqResult.value < 70) return 'Очень низкий'
   if(iqResult.value >= 70 && iqResult.value <= 80) return 'Низкий'
-  if(iqResult.value > 80 && iqResult.value <= 90) return 'Очень низкий'
+  if(iqResult.value > 80 && iqResult.value <= 90) return 'Ниже среднего'
   if(iqResult.value > 90 && iqResult.value <= 110) return 'Средний'
   if(iqResult.value > 110 && iqResult.value <= 125) return 'Высше среднего'
-  if(iqResult.value > 125 && iqResult.value <= 140) return 'Очень низкий'
+  if(iqResult.value > 125 && iqResult.value <= 140) return 'Высокий'
   if(iqResult.value > 140) return 'Очень высокий'
 })
 
